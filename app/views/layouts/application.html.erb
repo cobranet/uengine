@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="uengine">
+<head>
+  <title>Uengine</title>
+  <%= javascript_include_tag 'application'  %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+</head>
+<body ng-controller="MainCtrl">
+  <ng-view></ng-view>
+</body>
+</html>
