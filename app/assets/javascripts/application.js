@@ -19,5 +19,4 @@
 //= require ./angular/angular-cookies.min
 //= require ./angular/angular-resource.min
 //= require d3.js
-//= require dice.js
 //= require uengine.js
